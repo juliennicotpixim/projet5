@@ -1,0 +1,20 @@
+//smartphone
+$screen-small-min: 700px;
+//Tablets and small desktops
+$screen-medium-min: 1200px;
+
+
+
+//small device
+@mixin small {
+    @media (max-width: #{$screen-small-min}) {
+        @content;
+    }
+ }
+  
+ // Medium devices
+ @mixin medium {
+    @media (max-width: #{$screen-medium-min}) {
+        @content;
+    }
+ }

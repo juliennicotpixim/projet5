@@ -1,0 +1,13 @@
+@import "libs/reset.scss";
+@import "variable_overrides.scss";
+@import "libs/responsive.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar{
+    background-color: #F3E9F1 ;
+}
+
+.custom-btn{
+    background: linear-gradient(127deg, rgba(231,139,7,1) 0%, rgba(147,93,243,1) 100%);
+    border: 1px solid rgba(147,93,243,1);
+}
